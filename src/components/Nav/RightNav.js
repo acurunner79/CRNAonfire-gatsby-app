@@ -12,11 +12,11 @@ const RightNav = () => {
                     Home
                     </li>
                 </Link>
-                <Link to="/contact" className="links" activeClassName="active" iscurrent="true">
+                {/* <Link to="/contact" className="links" activeClassName="active" iscurrent="true">
                     <li className="rightnav-item">
                     Contact
                     </li>
-                </Link>
+                </Link> */}
             </ul>
         </div>
     )

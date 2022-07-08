@@ -13,9 +13,9 @@ const TopNav = () => {
                   <li>Home</li>
                </Link>
                
-               <Link to="/contact" className="topnav-link" activeClassName="active" iscurrent="true">
+               {/* <Link to="/contact" className="topnav-link" activeClassName="active" iscurrent="true">
                   <li>Contact</li> 
-               </Link>  
+               </Link>   */}
             </ul>     
          </nav>
       </div>

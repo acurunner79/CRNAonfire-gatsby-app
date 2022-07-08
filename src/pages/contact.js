@@ -1,32 +1,32 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Layout from '../components/Layout/Layout'
-import { ValidationError, useForm } from '@formspree/react'
+// import { ValidationError, useForm } from '@formspree/react'
 import '../styles/contact.css'
 
 
 const Contact = () => {
 
-    const [state, handleSubmit] = useForm("");
-      if (state.succeeded) {
-        return (
-            <>
-            <div className="message-submit">
-               <h1>Thank you!</h1>
-               <h2>Someone will be in contact with you soon.</h2>
-               <Link to="/">
-                  <button className="button">Back to home</button>   
-               </Link>
-            </div>
-            {/* <Footer /> */}
-            </>
-         )
-      }
+    // const [state, handleSubmit] = useForm("");
+    //   if (state.succeeded) {
+    //     return (
+    //         <>
+    //         <div className="message-submit">
+    //            <h1>Thank you!</h1>
+    //            <h2>Someone will be in contact with you soon.</h2>
+    //            <Link to="/">
+    //               <button className="button">Back to home</button>   
+    //            </Link>
+    //         </div>
+            
+    //         </>
+    //      )
+    //   }
 
     return (
         <Layout>
-        {/* <ScrollButton /> */}
-        <div id="contact-main-container">
+       
+        {/* <div id="contact-main-container">
             <h1 id="contact-header">CONTACT</h1>
             <form onSubmit={handleSubmit} method="POST">
             <ValidationError field="email" prefix="Email" errors={state.errors} />
@@ -64,8 +64,8 @@ const Contact = () => {
                     <br/>
                 <button className="button" type="submit" disabled={state.submitting}>Submit</button><br/>
             </form>
-        </div>
-        {/* <Footer /> */}
+        </div> */}
+        
         </Layout>
     )
 }
